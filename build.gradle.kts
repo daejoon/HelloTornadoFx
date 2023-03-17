@@ -14,7 +14,7 @@ repositories {
 }
 
 javafx {
-    modules = listOf("javafx.controls", "javafx.graphics")
+    modules("javafx.controls", "javafx.graphics", "javafx.fxml")
 }
 
 dependencies {
@@ -23,6 +23,7 @@ dependencies {
     implementation("org.openjfx:javafx:17.0.6")
     implementation("org.openjfx:javafx-base:17.0.6")
     implementation("org.openjfx:javafx-controls:17.0.6")
+    implementation("org.openjfx:javafx-fxml:17.0.6")
     testImplementation(kotlin("test"))
 }
 
